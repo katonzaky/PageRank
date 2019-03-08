@@ -1,0 +1,21 @@
+Tokenising:
+-Input is taken through the file and scanned by each line
+-Tokenised by taking the line and seperating the two values and placing them in to the vectors "from" and "to"
+-"from" indicates the node and "to" indicates the directional value
+
+Storage:
+- Hashmap data structure is used to store the node objects, due to (o) complexity for adding and accessing nodes.
+- Each object has essential properties for a pageRank: id, page score, page rank and a vector of its incoming and outgoing edges.
+
+Computation:
+- Start timer for run-time (started since tokenising until output)
+- Computed iteratively by acessing each noeds using PageRank.
+- Taxation and 'random-surfer- method is added to avoid dead-ends and spider-traps.
+- After all calculation is done, results are stored in vector to be sorted by page score (HashMap cannot perform sorting).
+
+Output includes:
+- Run time
+- Number of nodes
+- Number of edges
+- Number of iterations
+- Beta value
