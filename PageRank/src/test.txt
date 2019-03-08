@@ -1,0 +1,12 @@
+# Directed graph (each unordered pair of nodes is saved once): web-Google.txt 
+# Webgraph from the Google programming contest, 2002
+# Nodes: 875713 Edges: 5105039
+# FromNodeId	ToNodeId
+A	B
+A	C
+A	D
+B	A
+B	D
+C	C
+D	B
+D	C
